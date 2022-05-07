@@ -12,9 +12,15 @@ var add = function (a, b) {
 console.log(add(40, 5))
 
 // Callback Function
-function complexEx(add){
-console.log(add(200, 300));
+function complexEx(add) {
+    console.log(add(200, 300));
 }
 complexEx(add);
 
 // Anonymous Function with Callback
+function complexEx2(sub) {
+    console.log(sub(200, 100));
+}
+complexEx2(function (a, b) {
+    return a - b;
+})
