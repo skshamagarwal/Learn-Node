@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/skshamagarwal/Learn-Node#readme",
   "dependencies": {
+    "mysql": "^2.18.1",
     "nodemailer": "^6.7.5",
     "upper-case": "^2.0.2"
   },
