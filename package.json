@@ -20,5 +20,8 @@
   "dependencies": {
     "nodemailer": "^6.7.5",
     "upper-case": "^2.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
   }
 }
